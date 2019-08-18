@@ -1,0 +1,152 @@
+/***********************************TAG SELECTORS **********************************/
+body{
+  margin: 0px;
+  text-align: center;
+}
+
+/* If you ae changing the width  of the text then use margin to center
+alig the text*/
+h1{
+  margin: 75px auto 0px auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  line-height: 2;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h1,h2{
+ color: #66BFBF;
+}
+
+h3{
+  color: #11999E;
+}
+
+
+/*Pseudo classes*/
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover{
+  color: white;
+}
+
+hr{
+      /*
+      border-style: none;
+      border-top-style: dotted;
+      border-color: grey;
+      border-width: 5px;
+      width: 5%;
+      */
+      border: dotted #EAF6F6 6px;
+      border-bottom: none;
+      width: 6%;
+}
+
+/***********************************CLASS SELECTORS **********************************/
+
+.about-me{
+  height: 200px;
+  width: 600px;
+  text-align: center;
+  margin: 0px auto;
+  color: #40514E;
+}
+
+.skills{
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+/* float and clear property( anti-float )*/
+/* The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it.  */
+.code-image{
+  width: 40%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.tennis-image{
+  width: 40%;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 150px auto;
+  text-align: left;
+  line-height: 2;
+  color: #40514E;
+}
+
+.programmer{
+  font-weight: normal;
+}
+
+.profile-image{
+  border-radius: 50%;
+  width: 20%;
+  /* Why does this make the text crumbled?
+  height: 200px;
+  width: 200px;
+  */
+}
+/* 100% == 16px == 1em */
+
+.top-container{
+  background-color: #E4F9F5;
+  /*Text align only works on in-line elements likes span,img*/
+  position: relative;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.middle-container{
+
+}
+
+.bottom-container{
+  height: 120px;
+  background-color: #66BFBF;
+  color: #11999E;
+  padding-top: 100px;
+  line-height: 2;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.contact-me{
+  color: #40514E;
+  margin-bottom: 50px;
+}
+
+.copyrights{
+  color: #EAF6F6;
+}
+
+/*Use css3buttongenerator website*/
+.btn{
+
+}
+/***********************************ID SELECTORS **********************************/
